@@ -18,9 +18,9 @@ class Movie {
 }
 
 
-$movie1 = new Movie("01", "che bella giornata", "92");
+$movie1 = new Movie("01", "che bella giornata", "92 min");
 
-$movie2 = new Movie("02", "sole a catinelle", "90");
+$movie2 = new Movie("02", "sole a catinelle", "90 min");
 
 echo($movie1-> renderMovie());
 echo($movie2-> renderMovie());
